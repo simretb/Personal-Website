@@ -1,0 +1,36 @@
+.home-container{
+  display:flex;
+  background:url('./img/bb.jpg');
+  background-color: rgb(27, 27, 27);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:auto;
+  height: 800px;
+  color:white;
+ justify-content: center;
+ flex-direction: column;
+}
+.intro{
+  display: flex;
+  justify-content:center;
+  margin-bottom: 20%;
+  margin-left: 10%;
+  margin-right:10%;
+  font-family: 'Gill Sans';
+  font-size: 30px;
+  background-color: rgb(160, 116, 27);
+  padding:5px;
+}
+
+.pic{
+justify-content: space-around;
+padding-left: 700px;
+}
+.pic img{
+height: 250px;
+width: 250px;
+border-radius: 75%;
+}
+#about{
+  margin-top: 20px;
+}
